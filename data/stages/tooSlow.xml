@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="1.0" name="tooSlow" folder="stages/SonicStages/" startCamPosX="525" startCamPosY="525">
+	<combo/>
+	<girlfriend x="400" y="130"/>
+	<dad x="300" y="300"/>
+	<boyfriend x="770" y="125" camxoffset="20" camyoffset="10"/>
+
+	<ext script="Counter" folder="data/scripts/EXE/" />
+</stage>

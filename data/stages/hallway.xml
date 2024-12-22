@@ -1,0 +1,14 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="1.1" name="hallway" folder="stages/hallway" startCamPosY="300" startCamPosX="600">
+
+    <sprite name="bg"         x="-589" y="-170" sprite="BG"         scroll="1"/>
+    <sprite name="reflection" x="-239" y="619"  sprite="reflection" scroll="1"/>
+    <sprite name="spotlight2" x="-502" y="-327" sprite="spotlight2" scroll="1"/>
+    <sprite name="shadow1"    x="484" y="726"   sprite="shadow"     scroll="1"/>
+    <sprite name="shadow2"    x="877" y="720"   sprite="shadow"     scroll="1"/>
+    <sprite name="shadow3"    x="-44" y="726"   sprite="shadow"     scroll="1"/>
+    <sprite name="shadow4"    x="877" y="720"   sprite="shadow"     scroll="1"/>
+
+	<boyfriend x="832" y = "129"/>
+    <dad x = "427" y = "151" />
+</stage>

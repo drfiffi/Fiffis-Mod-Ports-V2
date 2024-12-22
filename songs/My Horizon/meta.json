@@ -1,0 +1,16 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 105,
+	"difficulties": [
+		"hard"
+	],
+	"needsVoices": false,
+	"parsedColor": -16777216,
+	"displayName": "My Horizon",
+	"icon": "Wechidna",
+	"name": "My Horizon",
+	"color": "#000000"
+}

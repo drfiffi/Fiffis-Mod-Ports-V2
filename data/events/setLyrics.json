@@ -1,0 +1,15 @@
+{
+	"params": [     
+        {
+            "name": "Lyric Type\n\n   sing1: Top Lyric\n   sing2: Bottom Lyric\n   yell: Yelled Top Lyric\n   done: Remove Lyrics",
+            "type": "DropDown('sing1', 'sing2', 'yell', 'done')",
+            "defaultValue": "sing1"
+        },
+        {
+            "name": "Lyric\n\n    The Lyrics",
+            "type": "String",
+            "defaultValue": ""
+        }
+
+	]
+}

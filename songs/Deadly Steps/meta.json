@@ -1,0 +1,17 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 170,
+	"difficulties": [
+		"hard",
+		"normal"
+	],
+	"needsVoices": false,
+	"parsedColor": -65536,
+	"displayName": "Deadly Steps",
+	"icon": "Icon",
+	"name": "Deadly Steps",
+	"color": "#FF0000"
+}

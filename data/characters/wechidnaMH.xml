@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character holdTime="6.1" x="220" icon="wech" camx="130" sprite="Wechidna/WechidnaMH" y="120" camy="20" color="#B1201E">
+	<anim loop="true" x="0" fps="24" y="0" anim="idle" name="idle"/>
+	<anim loop="false" x="137" fps="24" y="0" anim="left" name="singLEFT"/>
+	<anim loop="false" x="-15" fps="24" y="-70" anim="down" name="singDOWN"/>
+	<anim loop="false" x="60" fps="24" y="90" anim="up" name="singUP"/>
+	<anim loop="false" x="135" fps="24" y="-35" anim="right" name="singRIGHT"/>
+</character>

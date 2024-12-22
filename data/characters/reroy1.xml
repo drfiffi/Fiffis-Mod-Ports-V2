@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="20" holdTime="4.00000000000004" y="190" sprite="REROY/reroy1" camx="90" icon="reroy" scale="0.599999999999999" camy="210">
+	<anim x="6" loop="true" anim="idle" y="0" fps="24" name="idle"/>
+	<anim x="-120" loop="false" anim="right" y="-1" fps="24" name="singRIGHT"/>
+	<anim x="130" loop="false" anim="left" y="-20" fps="24" name="singLEFT"/>
+	<anim x="59" loop="false" anim="up" y="57" fps="24" name="singUP"/>
+	<anim x="30" loop="false" anim="down" y="-80" fps="24" name="singDOWN"/>
+</character>

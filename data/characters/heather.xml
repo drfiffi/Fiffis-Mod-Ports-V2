@@ -1,0 +1,14 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="face" y="0" isGF="false" color="#5696A9" isPlayer="false" holdTime="6.1" sprite="Heathers/heathers assets">
+	<anim x="0" loop="false" y="0" fps="24" anim="idle" name="idle"/>
+	<anim x="70" loop="false" y="-17" fps="24" anim="left" name="singLEFT"/>
+	<anim x="-80" loop="false" y="-90" fps="24" anim="down" name="singDOWN"/>
+	<anim x="0" loop="false" y="31" fps="24" anim="up" name="singUP"/>
+	<anim x="-89" loop="false" y="18" fps="24" anim="right" name="singRIGHT"/>
+	<anim x="219" loop="false" y="38" fps="24" anim="intro" name="intro"/>
+	<anim x="0" loop="false" y="0" fps="24" anim="alt idle" name="idle-alt"/>
+	<anim x="47" loop="false" y="0" fps="24" anim="alt left" name="singLEFT-alt"/>
+	<anim x="-3" loop="false" y="-9" fps="24" anim="alt down" name="singDOWN-alt"/>
+	<anim x="13" loop="false" y="20" fps="24" anim="alt up" name="singUP-alt"/>
+	<anim x="-40" loop="false" y="2" fps="24" anim="alt right" name="singRIGHT-alt"/>
+</character>

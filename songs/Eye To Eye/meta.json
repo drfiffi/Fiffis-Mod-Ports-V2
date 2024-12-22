@@ -1,0 +1,17 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 110,
+	"difficulties": [
+		"hard"
+	],
+	"needsVoices": true,
+	"parsedColor": -16777216,
+	"displayName": "Eye To Eye",
+	"icon": "Icon",
+	"name": "Eye To Eye",
+	"color": "#000000",
+	"customValues": {}
+}

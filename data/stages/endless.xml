@@ -1,0 +1,13 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.9" name="endless" folder="stages/FunInfiniteStage/" startCamPosX="525" startCamPosY="525">
+	<sprite name="sky"         x="-600" y="-200" sprite="sonicFUNSky"      scroll="0.3"                scale="0.9"/>
+	<sprite name="floor"       x="-600" y="-400" sprite="sonicFUNFloor"    scroll="0.5"                scalex="0.9" scaley="1.2"/>
+	<sprite name="pillar3"     x="-600" y="0"    sprite="sonicFUNpillars3" scrollx="0.6" scrolly="0.7" scale="0.7"/>
+	<sprite name="pillar2"     x="-600" y="0"    sprite="sonicFUNpillars2" scroll="0.7"                scale="0.7"/>
+	<sprite name="majinPillar" x="-400" y="0"    sprite="FII_BG"           scroll="0.82"               scale="0.7" >
+		<anim name="sonicboppers" anim="sonicboppers" loop="false"/>
+	</sprite>
+
+	<dad x="100" y="550"/>
+	<boyfriend x="850" y="460"/>
+</stage>

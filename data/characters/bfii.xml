@@ -1,0 +1,14 @@
+<!DOCTYPE codename-engine-character>
+<character camx="-160" icon="bfii" y="100" camy="10" scale="1.2" color="#3774FF" isPlayer="true" flipX="true" gameOverChar="bfii-death" sprite="Wechidna/iibf">
+	<anim loop="false" x="-5" fps="24" y="0" anim="idle" name="idle"/>
+	<anim loop="false" x="130" fps="24" y="-12" anim="left" indices="0,0,2,2,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4" name="singLEFT"/>
+	<anim loop="false" x="31" fps="24" y="-45" anim="down" indices="0,0,2,2,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4" name="singDOWN"/>
+	<anim loop="false" x="13" fps="24" y="81" anim="up" indices="0,0,2,2,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4" name="singUP"/>
+	<anim loop="false" x="0" fps="24" y="-13" anim="right" indices="0,0,2,2,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4" name="singRIGHT"/>
+
+	<anim loop="false" x="130" fps="24" y="-12" anim="missleft" name="singLEFTmiss"/>
+	<anim loop="false" x="31" fps="24" y="-45" anim="missdown" name="singDOWNmiss"/>
+	<anim loop="false" x="13" fps="24" y="81" anim="missup" name="singUPmiss"/>
+	<anim loop="false" x="0" fps="24" y="-13" anim="missright" name="singRIGHTmiss"/>
+
+</character>

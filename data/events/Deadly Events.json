@@ -1,0 +1,24 @@
+{
+	"params": [
+        {
+            "name": "Event Type",
+            "type": "DropDown('Set Text Alpha (A)', 'Set Bottom Text (B)', 'Access Cam Bop (C)', 'Transition (D)')",
+            "defaultValue": "Set Text Alpha (A)"
+        },
+        {
+            "name": "\nValue 1:\n\n  A: 1 = Top Text\n     2 = Bottom Text\n     3 = Both\n\n  B: Bottom Text, uhh, text?\n\n  C: On/Off\n\n  D: A = Part 1\n     B = Part 2",
+            "type": "String",
+            "defaultValue": ""
+        },
+        {
+            "name": "\nValue 2:\n\n  A: 1 = On | 0 = Off",
+            "type": "String",
+            "defaultValue": ""
+        },
+        {
+            "name": "\nValue 2:\n\n  A: 1 = On | 0 = Off",
+            "type": "Int(-10000,10000,0.01,3)",
+            "defaultValue": "4"
+        }
+	]
+}

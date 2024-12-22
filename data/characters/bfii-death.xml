@@ -1,0 +1,6 @@
+<!DOCTYPE codename-engine-character>
+<character y="100" sprite="Wechidna/BFDEATHSHEET" flipX="true" isPlayer="true" icon="bfii">
+	<anim name="firstDeath" anim="BFDIES" x="0" y="0" fps="23" loop="false"/>
+	<anim name="deathLoop" anim="BFDEATHLOOP" x="0" y="-72" fps="23" loop="false"/>
+	<anim name="deathConfirm" anim="BFDEATHCONFIRM" x="0" y="-71" fps="23" loop="false"/>
+</character>

@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character x="-440" holdTime="6.1" y="-510" sprite="Wechidna/Wechidnatransform" camx="-450" icon="yourselffps" camy="220">
+	<anim x="0" loop="false" anim="transform" y="0" fps="24" name="idle"/>
+</character>

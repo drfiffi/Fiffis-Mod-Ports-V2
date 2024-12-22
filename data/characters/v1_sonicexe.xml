@@ -1,0 +1,16 @@
+<!DOCTYPE codename-engine-character>
+<character x="-130" y="-50" sprite="EXE/Sonic_EXE_Assets" camx="-50" icon="sonicexe" camy="60" scale="1.1">
+	<anim x="0" loop="true" anim="SONICmoveIDLE" y="0" fps="24" name="idle"/>
+
+	<anim x="152" loop="false" anim="SONICmoveLEFT" y="-15" fps="24" name="singLEFT"/>
+
+	<anim x="77" loop="false" anim="SONICmoveDOWN" y="-12" fps="24" name="singDOWN"/>
+
+	<anim x="14" loop="false" anim="SONICmoveUP" y="47" fps="24" name="singUP"/>
+
+	<anim x="16" loop="false" anim="SONICmoveRIGHT" y="14" fps="24" name="singRIGHT"/>
+
+	<anim x="43" loop="false" anim="SONIClaugh" y="-7" fps="24" name="singDOWN-alt"/>
+
+	<anim x="127" loop="false" anim="sonicImmagetya" y="10" fps="24" name="getcha"/>
+</character>

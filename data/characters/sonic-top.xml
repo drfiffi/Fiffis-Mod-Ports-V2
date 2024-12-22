@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="-30" isGF="false" y="100" camx="-490" icon="topSON" scale="7.99999999999999" camy="-100" isPlayer="false" flipX="false" color="#5696A9" antialiasing="false" sprite="Top Loader/tlsonic">
+	<anim loop="false" x="-5" anim="tlsonic idle" fps="12" y="0" name="idle"/>
+
+	<anim loop="false" x="-5" anim="tlsonic left" fps="12" y="0" name="singLEFT"/>
+
+	<anim loop="false" x="-4" anim="tlsonic down" fps="12" y="0" name="singDOWN"/>
+
+	<anim loop="false" x="-5" anim="tlsonic up" fps="12" y="0" name="singUP"/>
+
+	<anim loop="false" x="-5" anim="tlsonic right" fps="12" y="0" name="singRIGHT"/>
+</character>

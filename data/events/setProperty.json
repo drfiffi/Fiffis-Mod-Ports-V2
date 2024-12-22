@@ -1,0 +1,19 @@
+{
+	"params": [
+        {
+            "name": "Object to Set:",
+            "type": "String",
+            "defaultValue": ""
+        },
+        {
+            "name": "Type of Property",
+            "type": "DropDown('alpha', 'visible', 'x', 'y')",
+            "defaultValue": "alpha"
+        },
+        {
+            "name": "Property Set:",
+            "type": "String",
+            "defaultValue": ""
+        }
+	]
+}

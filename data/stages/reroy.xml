@@ -1,0 +1,6 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.7" name="reroy" folder="" startCamPosY="300" startCamPosX="600">
+    <gf        x="625" y="475" scroll="1"/>
+	<boyfriend x="850" y="450" camxoffset="0" camyoffset="-200"/>
+    <dad       x="-25" y="400" camxoffset="80" camyoffset="-200"/>
+</stage>

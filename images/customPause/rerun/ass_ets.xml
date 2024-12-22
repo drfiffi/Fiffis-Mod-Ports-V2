@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ass_ets.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="a0000" x="10" y="10" width="882" height="1357"/>
+	<SubTexture name="b0000" x="902" y="10" width="882" height="1357"/>
+	<SubTexture name="c0000" x="1794" y="10" width="479" height="737"/>
+	<SubTexture name="d0000" x="2283" y="10" width="780" height="1194"/>
+	<SubTexture name="e0000" x="3073" y="10" width="794" height="1221"/>
+	<SubTexture name="f0000" x="10" y="1377" width="785" height="1207"/>
+	<SubTexture name="g0000" x="805" y="1377" width="784" height="1206"/>
+	<SubTexture name="h0000" x="1599" y="1377" width="781" height="1201"/>
+	<SubTexture name="i0000" x="2390" y="1377" width="869" height="1336"/>
+</TextureAtlas>

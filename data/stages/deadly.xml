@@ -1,0 +1,7 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.6" name="eyetoeye" folder="stages/eyetoeye" startCamPosY="510" startCamPosX="950">
+
+    <dad x = "500" y = "-20" />
+    <gf alpha="0" />
+	<boyfriend x="1500" y = "-20"/>
+</stage>

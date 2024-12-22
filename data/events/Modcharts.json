@@ -1,0 +1,15 @@
+{
+	"params": [
+        {
+            "name": "Type of Setter\nSets the type of thing you're doing.",
+            "type": "DropDown('tween', 'set', 'flip', 'swapScroll', 'shakeStrum')",
+            "defaultValue": "tween"
+        },
+        {
+            "name": "Event Type",
+            "type": "DropDown('StrumX', 'StrumY', 'StrumScaleX', 'StrumScaleY', 'StrumAlpha', 'StrumAngle', 'StrumColor')",
+            "defaultValue": "StrumX"
+        }
+
+	]
+}

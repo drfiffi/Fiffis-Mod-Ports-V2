@@ -1,0 +1,16 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"bpm": 135,
+	"difficulties": [
+		"hard"
+	],
+	"needsVoices": true,
+	"parsedColor": -16764499,
+	"displayName": "too-slow",
+	"icon": "sonicexe",
+	"name": "too-slow",
+	"color": "#0031AD"
+}

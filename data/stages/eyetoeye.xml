@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.9" name="eyetoeye" folder="stages/eyetoeye" startCamPosY="510" startCamPosX="950">
+    <sprite name="bgFR"      x="-1100" y="-1100" sprite="bg"           scroll="0.4"    zoomfactor="1"/>
+    <sprite name="bg3"       x="-1100" y="-450"  sprite="cavebacking2" scroll="0.6"    zoomfactor="1"/>
+    <sprite name="bg2"       x="-1100" y="-400"  sprite="cavebacking1" scroll="0.7"    zoomfactor="1"/>
+    <sprite name="bg1"       x="-1400" y="-1560" sprite="cavebase"     scale ="0.88"   zoomfactor="1"/>
+	<sprite name="speakers"  x="100"   y="-1100" sprite="speakers"     scroll="1"      zoomfactor="1"/>
+    <sprite name="floor"     x="-1060" y="500"   sprite="floor"        scroll="1"      zoomfactor="1"/>
+
+    <dad x = "500" y = "-20" />
+	<boyfriend x="1565" y = "-20"/>
+</stage>

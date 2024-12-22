@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="80" icon="bf" camx="0" y="330" isGF="false" scale="1" camy="210" color="#31b0d1" flipX="true" isPlayer="true" holdTime="5" sprite="REROY/reroybf">
+	<anim x="0" y="0" loop="false" fps="24" anim="i" name="idle"/>
+	<anim x="190" y="8" loop="false" fps="24" anim="l" name="singLEFT"/>
+	<anim x="63" y="-56" loop="false" fps="24" anim="d" name="singDOWN"/>
+	<anim x="0" y="189" loop="false" fps="24" anim="u" name="singUP"/>
+	<anim x="-60" y="-10" loop="false"  fps="24" anim="r" name="singRIGHT"/>
+	<anim x="80" y="-20" loop="false" fps="24" anim="oh" name="singLEFTmiss"/>
+	<anim x="80" y="-20" loop="false" fps="24" anim="oh" name="singUPmiss"/>
+	<anim x="80" y="-20" loop="false" fps="24" anim="oh" name="singDOWNmiss"/>
+	<anim x="80" y="-20" loop="false" fps="24" anim="oh" name="singRIGHTmiss"/>
+</character>

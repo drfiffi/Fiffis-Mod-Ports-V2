@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.95" name="neshill" folder="" startCamPosY="300" startCamPosX="600">
+    <dad       x="770" y="100"/>
+    <boyfriend x="100" y="100"/>
+</stage>

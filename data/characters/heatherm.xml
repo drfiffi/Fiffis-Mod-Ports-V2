@@ -1,0 +1,11 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="face" y="0" isGF="false" isPlayer="false" holdTime="6.1" sprite="Heathers/heatherm">
+	<anim x="0" loop="false" y="0" fps="24" anim="idle" indices="0,1,2,3,4,5,6,7" name="idle"/>
+	<anim x="15" loop="false" y="-9" fps="24" anim="left" name="singLEFT"/>
+	<anim x="7" loop="false" y="-14" fps="24" anim="down" name="singDOWN"/>
+	<anim x="-10" loop="false" y="0" fps="24" anim="up" name="singUP"/>
+	<anim x="0" loop="false" y="-13" fps="24" anim="right" name="singRIGHT"/>
+	<anim x="0" loop="false" y="0" fps="24" anim="idle" indices="0,1,2,3,4,5,6,7" name="danceLeft"/>
+	<anim x="0" loop="false" y="0" fps="24" anim="idle" indices="8,9,10,11,12,13,14,15" name="danceRight"/>
+	<anim x="50" loop="true" y="0" fps="24" anim="walk" name="walk"/>
+</character>

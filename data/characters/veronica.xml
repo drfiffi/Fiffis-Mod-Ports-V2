@@ -1,0 +1,15 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="face" y="0" isGF="false" flipX="true" isPlayer="true" holdTime="6.1" sprite="Heathers/veronica">
+	<anim x="130" loop="false" y="-30" fps="24" anim="left" name="singLEFT"/>
+	<anim x="13" loop="false" y="-109" fps="24" anim="down" name="singDOWN"/>
+	<anim x="-7" loop="false" y="13" fps="24" anim="up" name="singUP"/>
+	<anim x="-89" loop="false" y="-50" fps="24" anim="right" name="singRIGHT"/>
+	<anim x="30" loop="false" y="-10" fps="24" anim="alt left" name="singLEFT-alt"/>
+	<anim x="-20" loop="false" y="-24" fps="24" anim="alt down" name="singDOWN-alt"/>
+	<anim x="-53" loop="false" y="7" fps="24" anim="alt up" name="singUP-alt"/>
+	<anim x="-68" loop="false" y="-6" fps="24" anim="alt right" name="singRIGHT-alt"/>
+	<anim x="0" loop="false" y="0" fps="24" anim="idle" indices="0,1,2,3,4,5,6,7" name="danceLeft"/>
+	<anim x="0" loop="false" y="0" fps="24" anim="idle" indices="8,9,10,11,12,13,14,15" name="danceRight"/>
+	<anim x="-10" loop="false" y="0" fps="24" anim="alt idle" indices="0,1,2,3,4,5,6,7" name="danceLeft-alt"/>
+	<anim x="-10" loop="false" y="0" fps="24" anim="alt idle" indices="8,9,10,11,12,13,14,15" name="danceRight-alt"/>
+</character>

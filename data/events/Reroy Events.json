@@ -1,0 +1,25 @@
+{
+	"params": [
+        {
+            "name": "Event Type",
+            "type": "DropDown('Set Camera Position (A)', 'Tween Camera Zoom (B)', 'Tween Camera Position (C)', 'Camera Focus Change (D)')",
+            "defaultValue": "Set Camera Position (A)"
+        },
+        {
+            "name": "\nValue 1:\n\n  A and C: X-Pos\n  B: Zoom Amount\n  D: Strumline (0 for Dad, 1 for BF)",
+            "type": "String",
+            "defaultValue": ""
+        },
+        {
+            "name": "\nValue 2:\n\n  A and C: Y-Pos",
+            "type": "String",
+            "defaultValue": ""
+        },
+        {
+            "name": "\nValue 3:\n\n  B and C: Tween Time",
+            "type": "String",
+            "defaultValue": ""
+        }
+
+	]
+}
