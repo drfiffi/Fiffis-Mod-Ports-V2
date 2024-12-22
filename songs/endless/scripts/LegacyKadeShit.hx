@@ -5,6 +5,9 @@ var sicks:Int = 0;           var goods:Int = 0;            var bads:Int = 0;    
 var firstHit:Bool = false;   var rankingA:String;          var rankingB:String;           var bfCurSinging:Bool = false; 
 var dadCursedTimer:FlxTimer; var lolShit:Bool = false;     var fuckYouDad:Bool;           var helpStep:Int = 0;
 
+var allowDadControl:Bool = true;
+var randomChance:Int;
+
 function postCreate(){
     dad.holdTime = 4;
 
@@ -32,7 +35,8 @@ function postCreate(){
 }
 
 function update(){
-    if(!firstHit){ finalAccuracy = 0; rankingA = ""; rankingB = "N/A";
+    if(!firstHit){ 
+        finalAccuracy = 0;      rankingA = "";      rankingB = "N/A";
     } else {
         finalAccuracy = (customAccuracy / noteHits);
         if(finalAccuracy >= .999935) rankingB = " AAAAA";
@@ -71,17 +75,15 @@ function update(){
     comboGroup.forEachAlive(function(spr) if (spr.camera != camHUD) spr.camera = camHUD);
 
     if(playerStrums.members[0].animation.curAnim.name == 'confirm' || playerStrums.members[1].animation.curAnim.name == 'confirm' || playerStrums.members[2].animation.curAnim.name == 'confirm' || playerStrums.members[3].animation.curAnim.name == 'confirm'){
-        bfCurSinging = true; lolShit = true;
+        bfCurSinging = true;
+        lolShit = true;
     }
-    if(playerStrums.members[0].animation.curAnim.name == 'static' && playerStrums.members[1].animation.curAnim.name == 'static' && playerStrums.members[2].animation.curAnim.name == 'static' && playerStrums.members[3].animation.curAnim.name == 'static') bfCurSinging = false;
+    if(playerStrums.members[0].animation.curAnim.name == 'static' && playerStrums.members[1].animation.curAnim.name == 'static' && playerStrums.members[2].animation.curAnim.name == 'static' && playerStrums.members[3].animation.curAnim.name == 'static') 
+        bfCurSinging = false;
     if(bfCurSinging){
         if(playerStrums.members[0].animation.curAnim.name == 'pressed' || playerStrums.members[1].animation.curAnim.name == 'pressed' || playerStrums.members[2].animation.curAnim.name == 'pressed' || playerStrums.members[3].animation.curAnim.name == 'pressed'){
-            bfCurSinging = true; lolShit = true;
-        }
-    }
-    if(lolShit && !bfCurSinging){
-        if(helpStep <= Conductor.curStep){
-            boyfriend.playAnim("idle"); lolShit = false;
+            bfCurSinging = true;
+            lolShit = true;
         }
     }
 }
@@ -90,7 +92,7 @@ function onPostStrumCreation(_){ for(i in 0...4){ cpuStrums.members[i].x = 50 + 
 
 function onPlayerHit(_){
     if (_.note.isSustainNote){
-        customAccuracy += 1; _.healthGain = 0;
+        customAccuracy += 1;        _.healthGain = 0;
     } else if(!_.note.isSustainNote){
         switch(_.rating){
             case 'sick': customAccuracy += 1;    sicks += 1;
@@ -102,25 +104,51 @@ function onPlayerHit(_){
     _.showSplash = false;
     noteHits += 1;
     if(!finalAccuracy) firstHit = true;
-    helpStep = Conductor.curStep + FlxG.random.int(1, 8);
+    helpStep = Conductor.curStep;
+    randomChance = FlxG.random.int(0, 3);
 }
 
-function onPlayerMiss(_){ noteHits += 1; lolShit = true; helpStep = Conductor.curStep + 4;} 
+function onPostNoteCreation(_) if(_.note.isSustainNote) _.note.alpha = 1;
+
+
+function onPlayerMiss(_){ 
+    noteHits += 1;      lolShit = true;         helpStep = Conductor.curStep + 4;
+} 
 
 function onDadHit(_) _.strumGlowCancelled = true;
 
 function beatHit(){
-    if(curCameraTarget == 1){
+    if(curCameraTarget == 1 && allowDadControl){
         if(dad.getAnimName() != 'idle'){
             fuckYouDad = true; dad.playAnim('idle');
         }
             
     }
         
-    if(curBeat % 2 == 0) if(!bfCurSinging && !lolShit) boyfriend.playAnim('idle');
+    if(curBeat % 2 == 0){
+        if(!bfCurSinging && !lolShit) boyfriend.playAnim('idle');
+        if(!bfCurSinging && lolShit && (helpStep / 250) < curBeat){
+            boyfriend.playAnim('idle');     lolShit = false;
+        } 
+    } 
 
     for(icon in [iconP1, iconP2]){
         icon.setGraphicSize(Std.int(iconP1.width + 30)); icon.updateHitbox();
+    }
+}
+
+function stepHit(){
+    if(curStep % 2 == 0){
+        if(helpStep < curStep){
+            if(!bfCurSinging && lolShit){
+                if(randomChance == 0){
+                    lolShit = false;
+                    boyfriend.playAnim('idle');     lolShit = false;
+                }
+
+            }
+            
+        }
     }
 }
 

@@ -1,13 +1,30 @@
 <!DOCTYPE codename-engine-stage>
 <stage zoom="0.9" name="endless" folder="stages/FunInfiniteStage/" startCamPosX="525" startCamPosY="525">
-	<sprite name="sky"         x="-600" y="-200" sprite="sonicFUNSky"      scroll="0.3"                scale="0.9"/>
-	<sprite name="floor"       x="-600" y="-400" sprite="sonicFUNFloor"    scroll="0.5"                scalex="0.9" scaley="1.2"/>
-	<sprite name="pillar3"     x="-600" y="0"    sprite="sonicFUNpillars3" scrollx="0.6" scrolly="0.7" scale="0.7"/>
-	<sprite name="pillar2"     x="-600" y="0"    sprite="sonicFUNpillars2" scroll="0.7"                scale="0.7"/>
-	<sprite name="majinPillar" x="-400" y="0"    sprite="FII_BG"           scroll="0.82"               scale="0.7" >
-		<anim name="sonicboppers" anim="sonicboppers" loop="false"/>
+	<sprite name="sky"   x="-600" y="-200" sprite="sonicFUNSky" scroll="0.3" scale="0.9"/>
+	<sprite name="bush2" x="-42"  y="171"  sprite="Bush2"       scroll="0.3"/>
+
+	<sprite name="pillar2" x="182" y="-100" sprite="Majin Boppers Back" scroll ="0.6" type="onbeat" beatInterval="1" >
+		<anim name="bumpypillar" anim="MajinBop2 instance 1" loop="false" />
 	</sprite>
 
-	<dad x="100" y="550"/>
-	<boyfriend x="850" y="460"/>
+	<sprite name="bush1" x="132"  y="354"  sprite="Bush 1"      scroll="0.3"/>
+
+	<sprite name="pillar1" x="-169" y="-167" sprite="Majin Boppers Front" scroll="0.6" type="onbeat" beatInterval="1" >
+		<anim name="bumpypillar" anim="MajinBop1 instance 1" loop="false" />
+	</sprite>
+
+	<sprite name="floor" x="-340"  y="660"  sprite="floor BG"   scroll="0.5"/>
+
+	<dad x="100" y="570"/>
+	<boyfriend x="850" y="784"/>
+
+	<high-memory>
+		<sprite name="majinBopper1" x="1126" y="903" sprite="majin FG1" scroll="0.8" type="onbeat" beatInterval="1" >
+			<anim name="bumpypillar" anim="majin front bopper1" loop="false" />
+		</sprite>
+
+		<sprite name="majinBopper2" x="-293" y="871" sprite="majin FG2" scroll="0.8" type="onbeat" beatInterval="1" >
+			<anim name="bumpypillar" anim="majin front bopper2" loop="false" />
+		</sprite>
+	</high-memory>
 </stage>

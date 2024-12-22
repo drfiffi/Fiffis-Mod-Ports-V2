@@ -42,9 +42,9 @@ function stepHit(){
                 FlxTween.tween(playerStrums.members[i], {angle: 360}, 0.2, {ease: FlxEase.quintOut, onComplete: function(){
                 }});
             }
-        case 909:
+        case 888:
             lockCamera = true;
-            camFollow.setPosition(FlxG.width / 2 + 200, FlxG.height / 4 * 3 + 100);
+            camFollow.setPosition(FlxG.width / 2 + 50, FlxG.height / 4 * 3 + 280);
             FlxTween.tween(FlxG.camera, {zoom: FlxG.camera.zoom + 0.3}, 0.7, {ease: FlxEase.cubeInOut});
             three.alpha = 0.5;
             three.screenCenter();
@@ -56,7 +56,7 @@ function stepHit(){
                     three.destroy();
                 }
             });
-        case 914:
+        case 891:
             FlxTween.tween(FlxG.camera, {zoom: FlxG.camera.zoom + 0.3}, 0.7, {ease: FlxEase.cubeInOut});
             two.alpha = 0.5;
             two.screenCenter();
@@ -68,7 +68,7 @@ function stepHit(){
                     two.destroy();
                 }
             });
-        case 918:
+        case 896:
             FlxTween.tween(FlxG.camera, {zoom: FlxG.camera.zoom + 0.3}, 0.7, {ease: FlxEase.cubeInOut});
             one.alpha = 0.5;
             one.screenCenter();
@@ -80,7 +80,7 @@ function stepHit(){
                     one.destroy();
                 }
             }); 
-        case 923:
+        case 899:
             lockCamera = false;
             FlxTween.tween(FlxG.camera, {zoom: defaultCamZoom}, 0.7, {ease: FlxEase.cubeInOut});
             gofun.alpha = 0.5;
@@ -92,14 +92,14 @@ function stepHit(){
                 {
                     gofun.destroy();
                 }
-            }); 
-        case 924: changeNoteSkins();
+            });
+            changeNoteSkins();
     }
 }
 
 function changeNoteSkins() {
     for(strumsForShit in [0, 1]){
-        frames = Paths.getSparrowAtlas("EXEAssets/Majin_Notes");
+        frames = Paths.getSparrowAtlas("game/notes/Majin_Notes");
         
         for (strum in strumLines.members[strumsForShit]) {
         strum.frames = frames;

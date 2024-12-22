@@ -1,8 +1,8 @@
 <!DOCTYPE codename-engine-character>
-<character sprite="EXE/SonicFunAssets" icon="majin">
-	<anim name="idle" anim="SONICFUNIDLE" x="-21" y="189" fps="24" loop="true"/>
+<character sprite="EXE/SonicFunAssets" icon="majin" color="#3c008a">
+	<anim name="idle" anim="SONICFUNIDLE" x="-21" y="66" fps="24" loop="true"/>
 	<anim name="singLEFT" anim="SONICFUNLEFT" x="393" y="-60" fps="24" loop="false"/>
-	<anim name="singDOWN" anim="SONICFUNDOWN" x="15" y="-67" fps="24" loop="false"/>
-	<anim name="singUP" anim="SONICFUNUP" x="22" y="126" fps="24" loop="false"/>
-	<anim name="singRIGHT" anim="SONICFUNRIGHT" x="-80" y="43" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="SONICFUNDOWN" x="46" y="-80" fps="24" loop="false"/>
+	<anim name="singUP" anim="SONICFUNUP" x="21" y="70" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="SONICFUNRIGHT" x="-86" y="15" fps="24" loop="false"/>
 </character>
