@@ -1,0 +1,5 @@
+<!DOCTYPE codename-mod-options>
+<!-- TEMPLATE FOR CUSTOM OPTIONS!!! -->
+<menu name="Settings For Ports" desc="Just some stupid options for the ports lolz">
+	<checkbox id="streamableMusic" name="Stream Music" desc="If checked, some songs will be streamed from online. If unchecked, lower quality versions will be used for those songs, but won't take forever to load!"/>
+</menu>

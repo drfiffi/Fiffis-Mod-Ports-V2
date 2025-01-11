@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character x="-130" y="-50" sprite="EXE/Sonic_EXE_Assets" camx="-50" icon="sonicexe" camy="60" scale="1.1">
+<character x="-130" y="-50" sprite="EXE/Sonic_EXE_Assets" camx="-40" icon="sonicexe" camy="50">
 	<anim x="0" loop="true" anim="SONICmoveIDLE" y="0" fps="24" name="idle"/>
 
 	<anim x="152" loop="false" anim="SONICmoveLEFT" y="-15" fps="24" name="singLEFT"/>

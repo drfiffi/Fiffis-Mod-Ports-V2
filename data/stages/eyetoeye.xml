@@ -1,12 +1,14 @@
 <!DOCTYPE codename-engine-stage>
 <stage zoom="0.9" name="eyetoeye" folder="stages/eyetoeye" startCamPosY="510" startCamPosX="950">
-    <sprite name="bgFR"      x="-1100" y="-1100" sprite="bg"           scroll="0.4"    zoomfactor="1"/>
-    <sprite name="bg3"       x="-1100" y="-450"  sprite="cavebacking2" scroll="0.6"    zoomfactor="1"/>
-    <sprite name="bg2"       x="-1100" y="-400"  sprite="cavebacking1" scroll="0.7"    zoomfactor="1"/>
-    <sprite name="bg1"       x="-1400" y="-1560" sprite="cavebase"     scale ="0.88"   zoomfactor="1"/>
-	<sprite name="speakers"  x="100"   y="-1100" sprite="speakers"     scroll="1"      zoomfactor="1"/>
-    <sprite name="floor"     x="-1060" y="500"   sprite="floor"        scroll="1"      zoomfactor="1"/>
+    <sprite name="bgFR"      x="-500"  y="300"   sprite="bg"           scale ="1.5"  scrolly="0.9"/>
+    <sprite name="bg3"       x="-1500" y="-400"  sprite="cavebacking2"               scrollx="1.1" scrolly="0.9"/>
+    <sprite name="bg2"       x="-1500" y="-200"  sprite="cavebacking1"               scroll="0.9"/>
+    <sprite name="bg1"       x="-1850" y="-1500" sprite="cavebase"     scale ="0.8"  scrolly="0.9"/>
+	<sprite name="speakers"  x="-350"  y="-1000" sprite="speakers"     scale ="0.9"  scrolly="0.9"/>
+    <sprite name="floor"     x="-1500" y="600"   sprite="floor"                      scrolly="0.9"/>
 
-    <dad x = "500" y = "-20" />
-	<boyfriend x="1565" y = "-20"/>
+    <dad x = "100" y = "100" />
+	<boyfriend x="770" y = "100"/>
+    
+    <ext script="CameraMovementTypeA" folder="data/scripts/"/>
 </stage>

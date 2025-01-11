@@ -3,7 +3,7 @@
 		{
 			"params": [
 				"2",
-				4,
+				"4",
 				"instant",
 				"stage",
 				"steps"
@@ -588,7 +588,7 @@
 		{
 			"params": [
 				"0.7",
-				8,
+				"8",
 				"expoOut",
 				"direct",
 				"steps"
@@ -629,6 +629,16 @@
 			],
 			"time": 118284.947852026,
 			"name": "Camera Modulo Change"
+		},
+		{
+			"params": [
+				false,
+				-65536,
+				4,
+				"camHUD"
+			],
+			"time": 118284.947852026,
+			"name": "Camera Flash"
 		},
 		{
 			"params": [
@@ -915,6 +925,17 @@
 		},
 		{
 			"params": [
+				"1.1",
+				"8",
+				"expoOut",
+				"stage",
+				"steps"
+			],
+			"name": "ZoomCamera",
+			"time": 180952.210633784
+		},
+		{
+			"params": [
 				0,
 				0,
 				0,
@@ -1015,13 +1036,23 @@
 		{
 			"params": [
 				"1",
-				8,
+				"8",
 				"expoOut",
 				"stage",
 				"steps"
 			],
 			"name": "ZoomCamera",
 			"time": 182285.543967117
+		},
+		{
+			"params": [
+				false,
+				-3670016,
+				4,
+				"camHUD"
+			],
+			"time": 182285.543967117,
+			"name": "Camera Flash"
 		},
 		{
 			"params": [
@@ -1062,6 +1093,16 @@
 			],
 			"time": 214285.543967117,
 			"name": "FocusCamera"
+		},
+		{
+			"params": [
+				false,
+				-5701632,
+				4,
+				"camHUD"
+			],
+			"time": 214618.87730045,
+			"name": "Camera Flash"
 		},
 		{
 			"params": [
@@ -6614,19 +6655,19 @@
 					"type": 0
 				}
 			],
+			"position": "dad",
+			"strumScale": 1,
 			"visible": true,
+			"type": 0,
+			"characters": [
+				"wechidnaMH"
+			],
 			"strumPos": [
 				0,
 				50
 			],
-			"position": "dad",
-			"strumScale": 1,
-			"vocalsSuffix": "",
 			"strumLinePos": 0.25,
-			"type": 0,
-			"characters": [
-				"wechidnaMH"
-			]
+			"vocalsSuffix": ""
 		},
 		{
 			"notes": [
@@ -8516,7 +8557,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 416.666666665988,
+					"sLen": 416.666666665871,
 					"time": 156785.543967117,
 					"type": 0
 				},
@@ -10219,6 +10260,12 @@
 					"type": 0
 				},
 				{
+					"id": 3,
+					"sLen": 0,
+					"time": 217535.543967117,
+					"type": 0
+				},
+				{
 					"id": 1,
 					"sLen": 0,
 					"time": 217618.87730045,
@@ -11335,19 +11382,19 @@
 					"type": 0
 				}
 			],
+			"position": "boyfriend",
+			"strumScale": 1,
 			"visible": true,
+			"type": 1,
+			"characters": [
+				"bfii"
+			],
 			"strumPos": [
 				0,
 				50
 			],
-			"position": "boyfriend",
-			"strumScale": 1,
-			"vocalsSuffix": "",
 			"strumLinePos": 0.75,
-			"type": 1,
-			"characters": [
-				"bfii"
-			]
+			"vocalsSuffix": ""
 		}
 	],
 	"codenameChart": true,

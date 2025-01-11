@@ -1,9 +1,9 @@
 function onStrumCreation(e) {
-    e.sprite = 'game/notes/Mario_NOTE_assets';
+    e.sprite = 'game/notes/MM_assets';
 }
 
 function onNoteCreation(e) {
-    e.noteSprite = 'game/notes/Mario_NOTE_assets';
+    e.noteSprite = 'game/notes/MM_assets';
 }
 
 function postCreate(){
@@ -19,3 +19,5 @@ function postCreate(){
     remove(accuracyTxt);
     remove(healthBarBG);
 }
+
+function onPlayerHit(event:NoteHitEvent) event.ratingSuffix = "MM";

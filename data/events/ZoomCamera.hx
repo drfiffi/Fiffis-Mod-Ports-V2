@@ -6,13 +6,9 @@ var zoomTween:FlxTween;
 
 var defaultZoom:Float = 0;
 
-function create(){
-    defaultZoom = defaultCamZoom;
-}
+function create() defaultZoom = defaultCamZoom;
 
-function onNoteHit(event){
-    event.enableCamZooming = false;
-}
+function onNoteHit(event) event.enableCamZooming = false;
 
 function update(){
     cameraBopMultiplier = lerp(cameraBopMultiplier, 1, camGameZoomLerp);

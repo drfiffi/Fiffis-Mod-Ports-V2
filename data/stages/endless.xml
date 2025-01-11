@@ -27,4 +27,8 @@
 			<anim name="bumpypillar" anim="majin front bopper2" loop="false" />
 		</sprite>
 	</high-memory>
+
+	<ext script="Counter" folder="data/scripts/EXE/"/>
+	<ext script="CameraMovementTypeA" folder="data/scripts/"/>
+	<ext script="Kade Engine" folder="data/huds/"/>
 </stage>

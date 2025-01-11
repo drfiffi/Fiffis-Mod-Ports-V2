@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="150" camx="-350" y="100" icon="liquidAnnie" sprite="HazyRiver/MonAnnieNight_Assets" camy="10" color="#00FFA0">
+	<anim loop="false" x="3" fps="24" y="0" anim="monster idle" name="idle"/>
+
+	<anim loop="false" x="31" fps="24" y="0" anim="Monster Right note" name="singRIGHT"/>
+
+	<anim loop="false" x="82" fps="24" y="0" anim="Monster left note" name="singLEFT"/>
+
+	<anim loop="false" x="53" fps="24" y="45" anim="monster up note" name="singUP"/>
+
+	<anim loop="false" x="11" fps="24" y="-40" anim="monster down" name="singDOWN"/>
+</character>

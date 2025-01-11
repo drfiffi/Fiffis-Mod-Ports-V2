@@ -3,4 +3,6 @@
     <gf        x="625" y="475" scroll="1"/>
 	<boyfriend x="850" y="450" camxoffset="0" camyoffset="-200"/>
     <dad       x="-25" y="400" camxoffset="80" camyoffset="-200"/>
+    <ext script="CameraMovementTypeA" folder="data/scripts/"/>
+    <ext script="Rerun" folder="data/huds/"/>
 </stage>

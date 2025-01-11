@@ -1,0 +1,19 @@
+{
+	"params": [
+        {
+            "name": "Game Camera (Int, Dur)",
+            "type": "String",
+            "defaultValue": ""
+        },
+        {
+            "name": "Game Hud (Int, Dur)",
+            "type": "String",
+            "defaultValue": ""
+        },
+        {
+            "name": "Duration Type\n\nSeconds: Use seconds to determine the tween\nSteps: Use seconds to determine the tween",
+            "type": "DropDown('seconds', 'steps')",
+            "defaultValue": "seconds"
+        }
+	]
+}

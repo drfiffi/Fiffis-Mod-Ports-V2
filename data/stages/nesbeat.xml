@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-stage>
+<stage startCamPosX="950" folder="stages/beatus/" startCamPosY="510" zoom="0.9" name="nesbeat">
+	<gf/>
+	<dad x="500" y="-20"/>
+	<boyfriend x="1500" y="-20"/>
+	<combo/>
+
+    <ext script="CameraMovementTypeA" folder="data/scripts/"/>
+    <ext script="Mario's Madness" folder="data/huds/"/>
+</stage>

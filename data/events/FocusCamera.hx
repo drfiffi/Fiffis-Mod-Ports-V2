@@ -17,11 +17,14 @@ function onEvent(_) {
                 default: LockOn = true;
             }
 
-            FlxG.camera.follow(camFollow, FlxCameraFollowStyle.LOCKON, (LockOn ? 1 : 0.04));
+            FlxG.camera.follow(camFollow, FlxCameraFollowStyle.LOCKON, (LockOn ? 10 : 0.04));
             
             if(camFollowTween != null) camFollowTween.cancel();
             switch(easeTweenType.toUpperCase()){
-                case "CLASSIC" | "INSTANT": camFollow.setPosition(camTargetX, camTargetY);
+                case "CLASSIC": camFollow.setPosition(camTargetX, camTargetY);
+                case "INSTANT": 
+                    camFollow.setPosition(camTargetX, camTargetY);
+                    FlxG.camera.focusOn(camFollow.getPosition());
                 default: camFollowTween = FlxTween.tween(camFollow, {x: camTargetX, y: camTargetY}, durationForTween, {ease: Reflect.field(FlxEase, easeTweenType)});
             }
         case "Camera Movement":

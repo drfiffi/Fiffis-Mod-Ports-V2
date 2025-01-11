@@ -1,18 +1,16 @@
 var healthOn:Bool = false;
-
-import openfl.display.BlendMode;
-
 var adjustColorBF = new CustomShader('adjustColor');
 
 function create(){
-    
     boyfriend.shader = adjustColorBF;
     dad.alpha = 0;
+    boyfriend.alpha = 0;
     camHUD.alpha = 0; 
 	adjustColorBF.saturation = -50;
 
-    bfFake = new FlxSprite(600, -250).loadGraphic(Paths.image('stages/eyetoeye/asshole'));
-	bfFake.scale.set(0.6, 0.6);
+    bfFake = new FlxSprite(-24.5, -10.5).loadGraphic(Paths.image('stages/eyetoeye/asshole'));
+	bfFake.scale.set(0.4, 0.4);
+    bfFake.scrollFactor.set(0, 0);
     bfFake.alpha = 0;
     bfFake.frames = Paths.getSparrowAtlas("stages/eyetoeye/asshole");
 	bfFake.animation.addByPrefix('idle', "motherfucker instance 1", 12, true);
@@ -26,26 +24,24 @@ function create(){
 	add(bfFake);
 }
 
-function postCreate(){
-    boyfriend.alpha = 0;
-}
+function postCreate() for(i in 0...4) playerStrums.members[i].alpha = 0.5;
 
-/*function postUpdate(){
-    playerStrums.forEach(function(strums) strums.alpha = 0.5);
-    playerStrums.notes.forEach(function(notes) notes.alpha = 0.5);
-}*/
+function onStrumCreation(_) _.__doAnimation = false;
 
-function onDadHit(e){
-    if (healthOn && health >= 0.1)
-    health -= 0.03;
-}
+function onNoteCreation(_){
+    if(_.note.isSustainNote) _.note.alpha = 0.15;
+    if(!_.note.isSustainNote) _.note.alpha = 0.5;
+} 
+
+function onDadHit(_) if (healthOn && health >= 0.1) health -= 0.03;
 
 function beatHit(curBeat:Int){
     switch(curBeat){
-        case 17: FlxTween.tween(camHUD, {alpha: 1}, 5, {ease: FlxEase.linear});
-        case 42:
-            FlxTween.tween(bfFake.scale, {x: 0.9, y: 0.9}, 5, {ease: FlxEase.quadOut});
-            FlxTween.tween(bfFake, {alpha: 1}, 5, {ease: FlxEase.quadOut});
+        case 17: 
+            FlxTween.tween(camHUD, {alpha: 1}, 5, {ease: FlxEase.linear});
+        case 32:
+            FlxTween.tween(bfFake.scale, {x: 1, y: 1}, (Conductor.stepCrochet / 250) * 27, {ease: FlxEase.sineInOut});
+            FlxTween.tween(bfFake, {alpha: 1}, (Conductor.stepCrochet / 250) * 27, {ease: FlxEase.sineInOut});
         case 98:
             FlxTween.tween(bfFake.scale, {x: 0.6, y: 0.6}, 3, {ease: FlxEase.quadIn});
             FlxTween.tween(bfFake, {alpha: 0}, 3, {ease: FlxEase.quadIn, onComplete: function(twn:FlxTween){

@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-stage>
+<stage startCamPosX="950" folder="stages/SEOS/" startCamPosY="510" zoom="0.9" name="SEOSGhost">
+	<sprite scrolly="0.9" x="-400" y="-50" sprite="garStagebgAlt" type="none" scale="0.9" scrollx="0.9" name="garcelloDeadBG"/>
+	<sprite x="-500" y="-600" sprite="garSmoke" type="loop" scale="1.7" name="smokey2"/>
+	<sprite scrolly="0.9" x="-400" y="-99" sprite="garStagealt" type="none" scale="0.9" scrollx="0.9" name="garcelloDeadStage"/>
+	<sprite scrolly="0.9" x="-200" y="600" sprite="gardead" type="none" scrollx="0.9" name="gardead"/>
+	<gf/>
+	<dad/>
+	<bf/>
+	<combo/>
+	<sprite x="-500" y="-300" sprite="garSmoke" type="loop" scale="1.7" name="smokey"/>
+</stage>

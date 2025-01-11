@@ -46,18 +46,15 @@ function postCreate(){
     FlxG.cameras.add(camOther, false);
 
     step = new FlxText(0, 0, FlxG.width, 'STEP', 10, true);
-    step.setFormat(Paths.font('impact.ttf'), 100, FlxColor.WHITE, 'center', FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-    step.camera = camOther;
-    step.alpha = 0;
-    step.borderSize = 4;
-    add(step);
-
     num = new FlxText(0, FlxG.height - 120, FlxG.width, 'ONE', 10, true);
-    num.setFormat(Paths.font('impact.ttf'), 100, FlxColor.WHITE, 'center', FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-    num.camera = camOther;
-    num.alpha = 0;
-    num.borderSize = 4;
-    add(num);
+
+    for(i in [step, num]){
+        i.setFormat(Paths.font('impact.ttf'), 100, FlxColor.WHITE, 'center', FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+        i.camera = camOther;
+        i.alpha = 0;
+        i.borderSize = 4;
+        add(i);
+    }
 }
 
 function update(){

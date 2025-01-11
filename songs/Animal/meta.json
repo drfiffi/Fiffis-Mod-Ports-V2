@@ -1,0 +1,16 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"bpm": 140,
+	"difficulties": [
+		"Hard"
+	],
+	"needsVoices": true,
+	"parsedColor": -16764499,
+	"displayName": "Animal",
+	"icon": "liquidAnnie",
+	"name": "Animal",
+	"color": "#0031AD"
+}

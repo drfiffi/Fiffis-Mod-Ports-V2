@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-stage>
+<stage startCamPosX="950" folder="stages/annie/" startCamPosY="510" zoom="0.9" name="DayBurnNightRoof">
+	<sprite scrolly="0.9" x="-600" y="-800" sprite="sky" scrollx="0.9" name="sky"/>
+	<sprite scrolly="0.9" x="-250" y="-300" sprite="Buildings" scale="0.7" scrollx="0.9" name="Buildings"/>
+	<sprite scrolly="0.9" x="-500" y="700" sprite="Roof" scrollx="0.9" name="Roof"/>
+	<gf/>
+	<dad/>
+	<bf/>
+	<combo/>
+</stage>

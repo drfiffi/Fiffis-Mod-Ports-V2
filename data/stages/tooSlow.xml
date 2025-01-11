@@ -1,9 +1,27 @@
 <!DOCTYPE codename-engine-stage>
 <stage zoom="1.0" name="tooSlow" folder="stages/SonicStages/" startCamPosX="525" startCamPosY="525">
 	<combo/>
-	<girlfriend x="400" y="130"/>
-	<dad x="300" y="300"/>
-	<boyfriend x="770" y="125" camxoffset="20" camyoffset="10"/>
+	<sprite name="sky"   x="-222" y="134"  sprite="SKY"/>
 
-	<ext script="Counter" folder="data/scripts/EXE/" />
+	<high-memory>
+		<sprite name="hills" x="-264" y="-6"   sprite="HILLS"   scrollx="1.1"/>
+		<sprite name="bg2"   x="-345" y="-119" sprite="FLOOR2"  scrollx="1.2"/>
+	</high-memory>
+	<sprite name="bg"    x="-297" y="-96"  sprite="FLOOR1"  scrollx="1.3"/>
+	<sprite name="egg"   x="-218" y="-69"  sprite="EGGMAN"  scrollx="1.32"/>
+	<sprite name="tail"  x="-349" y="-109" sprite="TAIL"    scrollx="1.34"/>
+	<sprite name="knux"  x="285"  y="-200" sprite="KNUCKLE" scrollx="1.36"/>
+	<high-memory>
+		<sprite name="stick" x="-100" y="50"   sprite="TailsSpikeAnimated" scrollx="1.37" scale="1.2">
+			<anim name="a" anim="Tails Spike Animated instance 1" loop="true" fps="4"/>
+		</sprite>
+	</high-memory>
+
+	<girlfriend x="400" y="130" scrollx="1.37"/>
+	<dad x="300" y="320" scrollx="1.37"/>
+	<boyfriend x="770" y="125" scrollx="1.37"/>
+
+	<ext script="Counter" folder="data/scripts/EXE/"/>
+	<ext script="CameraMovementTypeA" folder="data/scripts/"/>
+	<ext script="Kade Engine" folder="data/huds/"/>
 </stage>

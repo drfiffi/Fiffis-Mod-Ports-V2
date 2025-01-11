@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="myhorizonheart.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="myhorizonheart0000" x="5" y="5" width="222" height="351" frameX="-1" frameY="0" frameWidth="223" frameHeight="364"/>
+	<SubTexture name="myhorizonheart0001" x="5" y="5" width="222" height="351" frameX="-1" frameY="0" frameWidth="223" frameHeight="364"/>
+	<SubTexture name="myhorizonheart0002" x="232" y="5" width="222" height="342" frameX="-1" frameY="0" frameWidth="223" frameHeight="364"/>
+	<SubTexture name="myhorizonheart0003" x="459" y="5" width="222" height="339" frameX="-1" frameY="0" frameWidth="223" frameHeight="364"/>
+	<SubTexture name="myhorizonheart0004" x="459" y="5" width="222" height="339" frameX="-1" frameY="0" frameWidth="223" frameHeight="364"/>
+	<SubTexture name="myhorizonheart0005" x="686" y="5" width="223" height="364"/>
+	<SubTexture name="myhorizonheart0006" x="686" y="5" width="223" height="364"/>
+	<SubTexture name="myhorizonheart0007" x="5" y="374" width="223" height="359" frameX="0" frameY="0" frameWidth="223" frameHeight="364"/>
+	<SubTexture name="myhorizonheart0008" x="233" y="374" width="223" height="355" frameX="0" frameY="0" frameWidth="223" frameHeight="364"/>
+	<SubTexture name="myhorizonheart0009" x="233" y="374" width="223" height="355" frameX="0" frameY="0" frameWidth="223" frameHeight="364"/>
+	<SubTexture name="myhorizonheart0010" x="233" y="374" width="223" height="355" frameX="0" frameY="0" frameWidth="223" frameHeight="364"/>
+	<SubTexture name="myhorizonheart0011" x="233" y="374" width="223" height="355" frameX="0" frameY="0" frameWidth="223" frameHeight="364"/>
+	<SubTexture name="myhorizonheart0012" x="5" y="5" width="222" height="351" frameX="-1" frameY="0" frameWidth="223" frameHeight="364"/>
+	<SubTexture name="myhorizonheart0013" x="5" y="5" width="222" height="351" frameX="-1" frameY="0" frameWidth="223" frameHeight="364"/>
+	<SubTexture name="myhorizonheart0014" x="5" y="5" width="222" height="351" frameX="-1" frameY="0" frameWidth="223" frameHeight="364"/>
+	<SubTexture name="myhorizonheart0015" x="5" y="5" width="222" height="351" frameX="-1" frameY="0" frameWidth="223" frameHeight="364"/>
+	<SubTexture name="myhorizonheart0016" x="5" y="5" width="222" height="351" frameX="-1" frameY="0" frameWidth="223" frameHeight="364"/>
+	<SubTexture name="myhorizonheart0017" x="5" y="5" width="222" height="351" frameX="-1" frameY="0" frameWidth="223" frameHeight="364"/>
+	<SubTexture name="myhorizonheart0018" x="5" y="5" width="222" height="351" frameX="-1" frameY="0" frameWidth="223" frameHeight="364"/>
+	<SubTexture name="myhorizonheart0019" x="5" y="5" width="222" height="351" frameX="-1" frameY="0" frameWidth="223" frameHeight="364"/>
+</TextureAtlas>

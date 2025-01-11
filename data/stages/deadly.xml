@@ -4,4 +4,7 @@
     <dad x = "500" y = "-20" />
     <gf alpha="0" />
 	<boyfriend x="1500" y = "-20"/>
+    
+    <ext script="CameraMovementTypeA" folder="data/scripts/"/>
+    <ext script="FNB" folder="data/huds/"/>
 </stage>
